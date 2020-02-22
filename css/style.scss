@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+
+  .logo{
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 42px;
+  }
+  .navbar-nav{
+    padding-top: 42px;
+  }
+  .navbar-nav > li > a{
+    font-size: 16px;
+    color: #fffefe;
+  }
+
+  .navbar-nav > li {
+    &:hover {
+      a {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .navbar-nav > li:hover :after {
+
+        content:"_ _";
+        color: #008ed6;
+        display: block;
+        width: 100%;
+
+
+  }
+  .navbar-nav > li > a:active {
+        background-color: transparent;
+  }
+  .blue{
+    font-size: 14px;
+    color: #008ed6;
+    text-transform:uppercase;
+    padding-top: 94px;
+  }
+  .white{
+    font-size: 48px;
+    color: white;
+    line-height: 1;
+
+  }
+  .gray{
+    font-size: 18px;
+    color: #999999;
+    padding-bottom: 57px;
+  }
+
+  .btn-default {
+    background-color: #008ed6;
+    background-image: none;
+    color: #ffffff;
+    padding: 20px 27px;
+    //border: none;
+    border: 1px solid transparent;
+    margin-right: 20px;
+    margin-bottom: 110px;
+
+    &:hover{
+      background: none;
+      color: white;
+      border: 1px solid #454449;
+    }
+  }
+}
+
+.blue{
+  font-size: 14px;
+  color: #008ed6;
+  padding-top: 65px;
+}
+.h1{
+  color: #1a1a1a;
+}
+
+.h1:after{
+  content:"_ _";
+  color: #008ed6;
+  display: block;
+  padding-top: 3px;
+}
